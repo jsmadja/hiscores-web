@@ -1,0 +1,25 @@
+@import 'assets/custom.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 12.8px;
+}
+
+h1 {
+  color: $primary;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Raleway", sans, serif;
+  border-bottom: 1px solid #dddddd63;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+}
